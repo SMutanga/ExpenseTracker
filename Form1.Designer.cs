@@ -46,7 +46,6 @@
             label1.Size = new Size(52, 15);
             label1.TabIndex = 0;
             label1.Text = "Expense:";
-            label1.Click += label1_Click;
             // 
             // label2
             // 
@@ -122,7 +121,6 @@
             Controls.Add(label1);
             Name = "Form1";
             Text = "Form1";
-            Load += Form1_Load;
             ResumeLayout(false);
             PerformLayout();
         }
