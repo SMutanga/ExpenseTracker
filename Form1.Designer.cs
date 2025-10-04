@@ -105,7 +105,7 @@
             label3.Name = "label3";
             label3.Size = new Size(86, 15);
             label3.TabIndex = 7;
-            label3.Text = "Total Espenses:";
+            label3.Text = "Total Expenses:";
             // 
             // Form1
             // 
