@@ -87,6 +87,7 @@
             btnAdd.TabIndex = 5;
             btnAdd.Text = "Add Expense";
             btnAdd.UseVisualStyleBackColor = true;
+            btnAdd.Click += btnAdd_Click;
             // 
             // lb_total
             // 
