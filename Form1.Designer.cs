@@ -67,7 +67,7 @@
             // 
             // tb_amount
             // 
-            tb_amount.Location = new Point(490, 72);
+            tb_amount.Location = new Point(487, 70);
             tb_amount.Name = "tb_amount";
             tb_amount.Size = new Size(100, 23);
             tb_amount.TabIndex = 3;
@@ -94,7 +94,7 @@
             // lb_total
             // 
             lb_total.AutoSize = true;
-            lb_total.Location = new Point(531, 277);
+            lb_total.Location = new Point(531, 251);
             lb_total.Name = "lb_total";
             lb_total.Size = new Size(13, 15);
             lb_total.TabIndex = 6;
@@ -103,7 +103,7 @@
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(414, 277);
+            label3.Location = new Point(414, 251);
             label3.Name = "label3";
             label3.Size = new Size(86, 15);
             label3.TabIndex = 7;
@@ -111,7 +111,7 @@
             // 
             // BtnRemove
             // 
-            BtnRemove.Location = new Point(460, 174);
+            BtnRemove.Location = new Point(460, 158);
             BtnRemove.Name = "BtnRemove";
             BtnRemove.Size = new Size(109, 33);
             BtnRemove.TabIndex = 8;
@@ -121,7 +121,7 @@
             // 
             // BtnSave
             // 
-            BtnSave.Location = new Point(460, 226);
+            BtnSave.Location = new Point(460, 197);
             BtnSave.Name = "BtnSave";
             BtnSave.Size = new Size(109, 30);
             BtnSave.TabIndex = 9;
