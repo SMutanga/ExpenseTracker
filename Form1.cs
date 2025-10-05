@@ -54,6 +54,20 @@ namespace ExpemseTracker
 
             lb_total.Text = $"Total: ${total:F2}";
         }
+
+        private void BtnRemove_Click(object sender, EventArgs e)
+        {
+            int selectedIndex = ExpenseTracker.SelectedIndex;
+            if (selectedIndex < 0)
+            {
+                MessageBox.Show("Please select an expense to remove.");
+                return;
+            }
+
+            _expenses.RemoveAt(selectedIndex);
+            UpdateDisplay();
+        
+    }
     }
 }
 

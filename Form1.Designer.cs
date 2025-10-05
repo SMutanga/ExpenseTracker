@@ -36,6 +36,8 @@
             btnAdd = new Button();
             lb_total = new Label();
             label3 = new Label();
+            BtnRemove = new Button();
+            BtnSave = new Button();
             SuspendLayout();
             // 
             // label1
@@ -92,7 +94,7 @@
             // lb_total
             // 
             lb_total.AutoSize = true;
-            lb_total.Location = new Point(519, 174);
+            lb_total.Location = new Point(531, 277);
             lb_total.Name = "lb_total";
             lb_total.Size = new Size(13, 15);
             lb_total.TabIndex = 6;
@@ -101,17 +103,39 @@
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(414, 174);
+            label3.Location = new Point(414, 277);
             label3.Name = "label3";
             label3.Size = new Size(86, 15);
             label3.TabIndex = 7;
             label3.Text = "Total Expenses:";
             // 
+            // BtnRemove
+            // 
+            BtnRemove.Location = new Point(460, 174);
+            BtnRemove.Name = "BtnRemove";
+            BtnRemove.Size = new Size(109, 33);
+            BtnRemove.TabIndex = 8;
+            BtnRemove.Text = "Remove Expense";
+            BtnRemove.UseVisualStyleBackColor = true;
+            BtnRemove.Click += BtnRemove_Click;
+            // 
+            // BtnSave
+            // 
+            BtnSave.Location = new Point(460, 226);
+            BtnSave.Name = "BtnSave";
+            BtnSave.Size = new Size(109, 30);
+            BtnSave.TabIndex = 9;
+            BtnSave.Text = "Save";
+            BtnSave.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = SystemColors.ActiveCaption;
             ClientSize = new Size(800, 450);
+            Controls.Add(BtnSave);
+            Controls.Add(BtnRemove);
             Controls.Add(label3);
             Controls.Add(lb_total);
             Controls.Add(btnAdd);
@@ -136,5 +160,7 @@
         private Button btnAdd;
         private Label lb_total;
         private Label label3;
+        private Button BtnRemove;
+        private Button BtnSave;
     }
 }
