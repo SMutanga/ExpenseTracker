@@ -18,16 +18,17 @@ Users can enter an expense name and amount, see a running total, and save their 
 ExpenseTracker/
 │
 ├── src/
-│ ├── Program.cs
-│ ├── MainForm.cs
-│ ├── Expense.cs
-│ ├── ExpenseService.cs
+│   ├── Program.cs
+│   ├── Form1.cs
+│   ├── Form1.Designer.cs
+│   ├── Form1.resx
+│   ├── Expense.cs
+│   ├── ExpenseService.cs
 │
 ├── data/
 │ └── expenses.json
 │
 ├── README.md
-└── Requirements.txt
 
 
 ---
@@ -35,12 +36,18 @@ ExpenseTracker/
 ##  Installation Instructions
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/SMutanga/ExpemseTracker.git
+   git clone https://github.com/SMutanga/ExpenseTracker.git
  2. Open in a terminal using cd ExpenseTracker
  3. Type dotnet run
  4. Open the application and start tracking your expenses!
 
  ---
+
+ ## API Usage Details
+ - No API was used in this project. All data is stored locally.
+
+	
+---
 
  ## How Data is Stored
 - Expenses are stored in a JSON file located at `data/expenses.json`.

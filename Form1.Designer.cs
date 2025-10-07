@@ -127,6 +127,7 @@
             BtnSave.TabIndex = 9;
             BtnSave.Text = "Save";
             BtnSave.UseVisualStyleBackColor = true;
+            BtnSave.Click += btnSave_Click;
             // 
             // Form1
             // 

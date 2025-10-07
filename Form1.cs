@@ -7,6 +7,7 @@ namespace ExpemseTracker
     public partial class Form1 : Form
     {
         private List<Expense> _expenses = new List<Expense>();
+        private readonly ExpenseService _service = new ExpenseService();
 
         public Form1()
         {
@@ -66,9 +67,16 @@ namespace ExpemseTracker
 
             _expenses.RemoveAt(selectedIndex);
             UpdateDisplay();
-        
-    }
+
+        }
+
+        private void btnSave_Click(object sender, EventArgs e)
+        {
+            _service.SaveExpenses(_expenses);
+            MessageBox.Show("Expenses saved successfully.");
+        }
     }
 }
+
 
 
